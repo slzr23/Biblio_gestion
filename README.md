@@ -2,7 +2,7 @@
 A software program to to make it easier to manage a book library , made by SLZR for a school project.
 
 # Explanatory notes
-This system works  with Python and SQL (go to biblio.py to see exactly how it works). You can manage any book library with some different methods. 
+This system works with Python and SQL (go to biblio.py to see exactly how it works). You can manage any book library with some different methods. 
 
 # Different functions & methods
 You have different functions that you can use: 
@@ -11,18 +11,13 @@ You have different functions that you can use:
     - make a loan: this function send a request to the SQL database in order to add a new loan in the loan's table. The new memeber has to fill in a form.
 
 # API 'isbnlib'
-Thaks to the API 'isbnlib', you can find all the information about a book just by writing its ISBN
+Thaks to the API 'isbnlib', you can find all the information about a book just by writing its ISBN. I decided to implement this API in my project because of the fact that it can allow me to find every book just by its ISBN number. Here is the documentation of the API: (https://pypi.org/project/isbnlib/)
 
-# Vigenere
-For Vigenere's method, the system is the same: it works also with a key. The key is in the form of a word or a sentence. In order to encrypt our text, for each character we use a letter of the key to perform the substitution. Obviously, the longer and more varied the key, the better the text will be encrypted.
-(Vigenere decryption is coming)
+# SQL Database
+Thanks to the SQL language, and with the use of DB Browser software, I built a database directly linked to my python program. It changes automatically when the user performs an action, depending on what he does (new member, new loan, new book,...)
 
 # Displaying
 For the software display, I used a famous python library called "Tkinter", here is the documentation that explain who this library works:(https://docs.python.org/fr/3/library/tk.html)
-
-# ZIP file
-The  software is available in ".exe" format in the zipped file called "Message_Encoder.zip". To make it executable, I used a software called "auto-py-to-exe", you can find and download this software here: 
-(https://pypi.org/project/auto-py-to-exe/)
 
 # Contact
 If you have any question or want to contact me: slzr.tech@gmail.com
